@@ -1,0 +1,160 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap%27');
+
+
+
+body
+{
+    background: linear-gradient(#3aa5a4, #7ae5e4);
+    z-index: 1;
+}
+
+
+.bg
+{ 
+    background: url(./imgs/me.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.08;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    padding-top: 50%;   
+    padding-left: 20%;
+}
+  
+
+.mydiv
+{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aboutme, .work, .educ, .contact, .Hobbies, .Lang, .icon, .container
+{
+    position: relative;
+    background-color: aliceblue;
+    overflow: hidden;  
+    margin: 60px;
+    padding: 60px;
+}
+
+
+
+
+.aboutme img
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.fa
+{
+    float: left;
+    padding: 20px;
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+    margin-right: 300px;    
+}
+
+.fa-instagram
+{
+    background: #8a3ab9;
+    color: white;      
+}
+
+
+input[type=text],input[type=email], textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=sendmessage]
+{
+    
+    margin: 0 auto;
+    outline: 0;
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.button 
+{
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button:hover 
+{
+    opacity: 0.5;
+}
+            
+h1, h4, h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    color: grey;
+}
+
+h3, h5, figcaption{
+    font-family: 'Lato', sans-serif;
+}
+
+h5{
+    float: left;
+    width: 30%;
+}
+
+
+figure
+{
+    width: 30%;
+    float:left;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.img-figure
+{
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+}
